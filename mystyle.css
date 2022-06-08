@@ -457,7 +457,7 @@
         .copyright-footer {
             padding-left: 2em;
             padding-right: 2em;
-        }
+        } 
     }
     
     @media screen and (min-width: 576px) {
@@ -471,8 +471,14 @@
             font-weight: 700;
             color: black;
         }
+        
     }
-    
+    @media screen and (max-width: 576px) {
+        .btn-appointment,
+        .btn-contact {
+            width: 100%;
+        }
+    }
     @media screen and (min-width: 768px) {
         .btn-appointment,
         .btn-contact {
@@ -510,8 +516,9 @@
         .s-footer-query {
             width: 16.66% !important;
         }
+        
     }
-    @media only screen and (min-width: 1200px) and (max-width: 1420px) {
+    @media only screen and (min-width: 1300px) and (max-width: 1403px) {
         .icon-fields-pic {
             padding-top: 6px;
             height: 40px;
@@ -522,16 +529,25 @@
             border-radius: 800px;
         } 
     }
-    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    @media only screen and (min-width: 1100px) and (max-width: 1300px) {
         .icon-fields-pic {
-            top: 60%;
-            left: 50%;
+            top: 62%;
+            left: 52%;
         } 
     }
-    @media only screen and (min-width: 768px) and (max-width: 990px) {
+    @media only screen and (min-width: 992px) and (max-width: 1100px) {
         .icon-fields-pic {
             top: 60%;
         } 
     }
-    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .icon-fields-pic {
+            top: 63%;
+        } 
+    } 
+    @media only screen and (min-width: 360px) and (max-width: 450px) {
+        .icon-fields-pic {
+            top: 60%;
+        } 
+    }
     
